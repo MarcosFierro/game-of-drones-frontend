@@ -1,0 +1,60 @@
+.Datos {
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    padding: 12px;
+    padding-bottom: 45px;
+    padding-top: 5px;
+}
+
+
+.playButton {
+    background-color: rgb(61, 139, 122);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #0c0800;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 1px 105px 5px;
+    box-shadow: 2px 2px 2px #666563;
+    margin-top: 35px;
+}
+
+.playButton:hover,
+.OrderButton:active {
+    background-color: rgb(149, 212, 46);
+    border: 1px solid #0c0800;
+    color: #ffffff;
+}
+
+
+.playButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.playButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.playButton:hover span {
+    padding-right: 25px;
+}
+  
+.playButton:hover span:after {
+    opacity: 1;
+    right: 0;
+}

@@ -1,0 +1,74 @@
+.Config {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 85%;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    padding: 40px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+.Titles {
+    align-items: right;
+}
+
+.Settings {
+    width: 100%;
+}
+
+.plusButton {
+    display: inline-block;
+    padding: 2px 15px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(11, 154, 250);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #999;
+    margin-right: 30px;
+}
+  
+.plusButton:active {
+    background-color: #179e88;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.minusButton {
+    display: inline-block;
+    padding: 2px 15px;
+    font-size: 19px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(250, 99, 11);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #999;
+    margin-right: 30px;
+}
+  
+.minusButton:active {
+    background-color: #e28e2d;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.NewWeapon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 50px;
+    width: 100%;
+}

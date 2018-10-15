@@ -1,0 +1,17 @@
+/* .Datos {
+    width: 33%;
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+} */
+
+.Titles {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

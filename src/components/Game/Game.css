@@ -1,0 +1,20 @@
+.Game {
+    width: 80%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.Rounds {
+    padding: 2px 10px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(124, 172, 61);
+    box-shadow: 0 2px #999;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}

@@ -1,0 +1,76 @@
+.Datos {
+    width: 35%;
+    background-color: rgba(245, 245, 245, 0.966);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 0 2px 1px #ccc;
+    margin: auto;
+    padding: 12px;
+    padding-bottom: 45px;
+    padding-top: 5px;
+}
+
+.StartButton {
+    
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #0c0800;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 1.2em;
+    padding: 1px 105px;
+    box-shadow: 2px 2px 2px #666563;
+    margin-top: 35px;
+}
+
+.StartButton:hover,
+.StartButton:active {
+    background-color: rgb(149, 212, 46);
+    border: 1px solid #0c0800;
+    color: #ffffff;
+}
+
+.StartButton:disabled {
+    background-color: #C7C6C6;
+    cursor: not-allowed;
+    border: 1px solid #ccc;
+    color: #888888;
+}
+
+.StartButton:not(:disabled) {
+    animation: enable 0.3s linear;
+}
+
+.Form {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.Player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.Label {
+    padding: 4px;
+    font-weight: bold;
+    width: 80px;
+    margin-top: 15px;
+}
+
+.blueButton {
+    padding-left: 85px;
+    padding-right: 85px;
+    background-color: rgb(1, 48, 87);
+}
+.blueButton:hover {
+    background-color: rgb(120, 196, 247);
+}
+
+.greenButton {
+    background-color: rgb(61, 139, 122);
+}
